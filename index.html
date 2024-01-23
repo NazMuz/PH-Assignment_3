@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'color_ash': '#13131899'
+              }
+            }
+          }
+        }
+      </script>
+          <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    clifford: '#da373d',
+                    'color_btn': '#FF4240'
+                  }
+                }
+              }
+            }
+          </script>
+</head>
+<body>
+    <nav>
+        <!-- navbar -->
+        <div class="navbar mt-[50px] bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Item 1</a></li>
+                  <li><a>Item 1</a></li>
+                  <li><a>Item 1</a></li>
+                  <li><a>Item 1</a></li>
+                  <li><a>Item 3</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-xl">daisyUI</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Item 1</a></li>
+                <li><a>Item 1</a></li>
+                <li><a>Item 1</a></li>
+                <li><a>Item 1</a></li>
+                <li><a>Item 3</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn">Button</a>
+            </div>
+          </div>
+          <!-- navbar end -->
+
+          <!-- banner section -->
+          <div>
+            <div class="carousel mt-[24px] sm:ml-[100px]  lg:ml-[135px] lg:mr-[135px] ">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </nav>  <!-- nav end -->
+
+<!--  main section 4 -->
+<!-- main section 5 -->
+<!-- main section 6 -->
+<!-- main section 7  -->
+<!-- main section 8 -->
+
+    <main>
+      <!-- main section 1 -->    
+        <div class=" text-center  mt-[136px]">
+            <h1 class="text-[36px] font-extrabold" >
+                Professional Hockeys Club
+            </h1>
+            <p class="text-[16px] font-medium text-[#13131899] mt-[24px]">
+                Elevating the game to new heights, our professional hockey club embodies excellence on and off the ice, <br>showcasing a relentless commitment to skill, teamwork, and sportsmanship
+            </p>
+        </div>
+        <div class="flex gap-[32px] mt-[80px] mx-[172px] ">
+            <div class="text-center">
+                <div class="radial-progress relative  text-[#FF4240] taransform rotate-180  w-[120px] h-[120px] bg-white" style="--value:87;" role="progressbar"><span class=" transform rotate-180 text-[28px] font-semibold text-black ">87%</span></div>
+                <h1>
+                    Prayer Facility
+                </h1>
+                <p class="text-[16px] font-normal text-[#13131899] mt-[16px]">
+                    Our cutting-edge player facility fuels peak performance, fostering excellence on and off the ice
+                </p>
+            </div>
+
+            <div class="text-center">
+                <div class="radial-progress text-[#49D293] taransform rotate-180 text-primary w-[120px] h-[120px] text-primary" style="--value:95;" role="progressbar"><span class="transform rotate-180 text-[28px] font-semibold text-black ">95%</span></div>
+                <h1>
+                    Experienced Coach
+                </h1>
+                <p class="text-[16px] font-normal text-[#13131899] mt-[16px]">
+                    Our cutting-edge player facility fuels peak performance, fostering excellence on and off the ice
+                </p>
+            </div>
+
+            <div class="text-center">
+                <div class="radial-progress text-[#FFB546] taransform rotate-180 text-primary w-[120px] h-[120px] text-primary" style="--value:90;" role="progressbar"><span class="transform rotate-180 text-[28px] font-semibold text-black ">90%</span></div>
+                <h1>
+                    Senior Player
+                </h1>
+                <p class="text-[16px] font-normal text-[#13131899] mt-[16px]">
+                    Our cutting-edge player facility fuels peak performance, fostering excellence on and off the ice
+                </p>
+            </div>
+
+            <div class="text-center">
+                <div class="radial-progress text-[#4C8DF1] taransform rotate-180 text-primary w-[120px] h-[120px] text-primary" style="--value:80;" role="progressbar"><span class="transform rotate-180 text-[28px] font-semibold text-black ">80%</span></div>
+                <h1>
+                    Training Ground 
+                </h1>
+                <p class="text-[16px] font-normal text-[#13131899] mt-[16px]">
+                    Our cutting-edge player facility fuels peak performance, fostering excellence on and off the ice
+                </p>
+            </div>
+
+        </div>
+
+        <!--  main section 2 -->
+
+        <div class="text-center mt-[132px]">
+            <h1 class="text-[36px] font-extrabold" >
+                Program Sections
+            </h1>
+            <p class="text-[16px] font-medium text-[#13131899] mt-[24px]">
+                Join our hockey programs designed for success, where skill development meets camaraderie,<br>
+                 ensuring every player's journey is a rewarding and unforgettable experience.
+            </p>
+        </div>
+
+        <div class="flex justify-center gap-[24px] mt-[80px] mb-[24px]">
+            <section class=" w-[573px] h-[338px] pt-[95px] pl-[40px] " style="background-image: url('2.png');">
+              <h1 class="text-[28px] font-extrabold text-white">Junior Program</h1>
+              <p class="text-left  text-[16px] font-medium text-white">Join our hockey club's junior program and nurture young talents on the ice. Our structured training and supportive community create an exciting environment for budding players to thrive and develop lifelong skills.</p>
+              <button class="rounded-[8px] w-[180px] h-[47px] text-white text-[20px] font-bold bg-color_btn mt-[24px]">Register Now!</button>
+
+            </section>
+
+            <section class=" w-[573px] h-[338px] pt-[95px] pl-[40px]" style="background-image: url('3.png');">
+              <h1 class="text-[28px] font-extrabold text-white">Teenager Program</h1>
+              <p class="text-left  text-[16px] font-medium text-white">Join our hockey club's Teenager program and nurture young talents on the ice. Our structured training and supportive community create an exciting environment for budding players to thrive and develop lifelong skills.</p>
+              <button class="rounded-[8px] w-[180px] h-[47px] text-white text-[20px] font-bold bg-color_btn mt-[24px]">Register Now!</button>
+
+            </section>
+        </div>
+        <div class=" w-[1170px] h-[450px] pt-[95px] pl-[40px] mx-auto" style="background-image: url('4.png');">
+          <section>
+            <h1 class="text-[28px] font-extrabold text-white">Professional Program</h1>
+            <p class="text-left text-[16px] text-white font-medium">Join our hockey club's professional program and nurture young talents on the ice. <br> Our structured training and supportive community create an exciting environment for budding players to thrive and develop lifelong skills.</p>
+            <button class="rounded-[8px] w-[180px] h-[47px] text-white text-[20px] font-bold bg-color_btn mt-[24px]">Register Now!</button>
+
+          </section>
+
+        </div>
+
+        <!--  main section 3 -->
+
+        <div class="text-center mt-[132px]">
+          <h1 class="text-[36px] font-extrabold">
+            Our New Products
+          </h1>
+          <p class="text-[16px] font-medium text-[#13131899] mt-[24px]">
+            Explore our latest arrivals for cutting-edge style and functionality. From fashion-forward apparel to innovative tech gadgets,<br>
+             discover the freshest additions to elevate your shopping experience.
+          </p>
+      </div>
+              <!-- our new products list -->
+      <div class="grid grid-cols-2 gap-[24px] ">
+        <section class="flex gap-[20px]">
+          <div>
+            <img src="5.png" alt="">
+          </div>
+          <div>
+            <section class="flex gap-[16px]">
+              <img src="star.png" alt=""><span>5.0</span>
+              <img src="eye.png" alt=""><span>20</span>
+              <img src="heart.png" alt=""><span>200</span>
+            </section>
+            <section>
+              <h3>World Cup Flags Football</h3>
+              <p>The FIFA World Cup: Global football spectacle, crowning champions every four years.</p>
+            </section>
+            <section class="flex">
+              <p>Price - $22.00</p>
+              <img src="cart.svg" alt="">
+              <p>Delivery Fee : Free</p>
+            </section>
+
+          </div>
+
+        </section>
+
+        <section class="flex gap-[20px]">
+          <div>
+            <img src="5.png" alt="">
+          </div>
+          <div>
+            <section class="flex gap-[16px]">
+              <img src="star.png" alt=""><span>5.0</span>
+              <img src="eye.png" alt=""><span>20</span>
+              <img src="heart.png" alt=""><span>200</span>
+            </section>
+            <section>
+              <h3>World Cup Flags Football</h3>
+              <p>The FIFA World Cup: Global football spectacle, crowning champions every four years.</p>
+            </section>
+            <section class="flex">
+              <p>Price - $22.00</p>
+              <img src="cart.svg" alt="">
+              <p>Delivery Fee : Free</p>
+            </section>
+
+          </div>
+
+        </section>
+
+        <section class="flex gap-[20px]">
+          <div>
+            <img src="5.png" alt="">
+          </div>
+          <div>
+            <section class="flex gap-[16px]">
+              <img src="star.png" alt=""><span>5.0</span>
+              <img src="eye.png" alt=""><span>20</span>
+              <img src="heart.png" alt=""><span>200</span>
+            </section>
+            <section>
+              <h3>World Cup Flags Football</h3>
+              <p>The FIFA World Cup: Global football spectacle, crowning champions every four years.</p>
+            </section>
+            <section class="flex">
+              <p>Price - $22.00</p>
+              <img src="cart.svg" alt="">
+              <p>Delivery Fee : Free</p>
+            </section>
+
+          </div>
+
+        </section>
+
+        <section class="flex gap-[20px]">
+          <div>
+            <img src="5.png" alt="">
+          </div>
+          <div>
+            <section class="flex gap-[16px]">
+              <img src="star.png" alt=""><span>5.0</span>
+              <img src="eye.png" alt=""><span>20</span>
+              <img src="heart.png" alt=""><span>200</span>
+            </section>
+            <section>
+              <h3>World Cup Flags Football</h3>
+              <p>The FIFA World Cup: Global football spectacle, crowning champions every four years.</p>
+            </section>
+            <section class="flex">
+              <p>Price - $22.00</p>
+              <img src="cart.svg" alt="">
+              <p>Delivery Fee : Free</p>
+            </section>
+
+          </div>
+
+        </section>
+
+        <section class="flex gap-[20px]">
+          <div>
+            <img src="5.png" alt="">
+          </div>
+          <div>
+            <section class="flex gap-[16px]">
+              <img src="star.png" alt=""><span>5.0</span>
+              <img src="eye.png" alt=""><span>20</span>
+              <img src="heart.png" alt=""><span>200</span>
+            </section>
+            <section>
+              <h3>World Cup Flags Football</h3>
+              <p>The FIFA World Cup: Global football spectacle, crowning champions every four years.</p>
+            </section>
+            <section class="flex">
+              <p>Price - $22.00</p>
+              <img src="cart.svg" alt="">
+              <p>Delivery Fee : Free</p>
+            </section>
+
+          </div>
+
+        </section>
+
+        <section class="flex gap-[20px]">
+          <div>
+            <img src="5.png" alt="">
+          </div>
+          <div>
+            <section class="flex gap-[16px]">
+              <img src="star.png" alt=""><span>5.0</span>
+              <img src="eye.png" alt=""><span>20</span>
+              <img src="heart.png" alt=""><span>200</span>
+            </section>
+            <section>
+              <h3>World Cup Flags Football</h3>
+              <p>The FIFA World Cup: Global football spectacle, crowning champions every four years.</p>
+            </section>
+            <section class="flex">
+              <p>Price - $22.00</p>
+              <img src="cart.svg" alt="">
+              <p>Delivery Fee : Free</p>
+            </section>
+
+          </div>
+
+        </section>
+
+      </div><!-- our new products list end-->
+
+      <!-- clients section  -->
+      
+
+    </main>
+
+
+</body>
+</html>
