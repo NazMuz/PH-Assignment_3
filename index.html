@@ -35,39 +35,40 @@
     <nav>
         <!-- navbar -->
         <div class="navbar mt-[50px] bg-base-100">
-            <div class="navbar-start">
+            <div class="lg:ml-[135px]">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                 </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>Item 1</a></li>
-                  <li><a>Item 1</a></li>
-                  <li><a>Item 1</a></li>
-                  <li><a>Item 1</a></li>
-                  <li><a>Item 3</a></li>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52  ">
+                  <li><a><span class="text-[#FF4240] text-[16px] font-bold">Home</span></a></li>
+                  <li><a class="text-[16px] font-bold text-[#424247]">About</a></li>
+                  <li><a class="text-[16px] font-bold text-[#424247]">Page</a></li>
+                  <li><a class="text-[16px] font-bold text-[#424247]">Blog</a></li>
+                  <li><a class="text-[16px] font-bold text-[#424247]">Content</a></li>
                 </ul>
               </div>
-              <a class="btn btn-ghost text-xl">daisyUI</a>
+              <a class="btn btn-ghost text-xl mr-[199px] text-[36px] font-extrabold">Hockey<span class="text-[#FF4240]">'</span>s</a>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
-                <li><a>Item 1</a></li>
-                <li><a>Item 1</a></li>
-                <li><a>Item 1</a></li>
-                <li><a>Item 1</a></li>
-                <li><a>Item 3</a></li>
+                <li><a><span class="text-[#FF4240] text-[16px] font-bold">Home</span></a></li>
+                <li><a class="text-[16px] font-bold text-[#424247] ">About</a></li>
+                <li><a class="text-[16px] font-bold text-[#424247]">Page</a></li>
+                <li><a class="text-[16px] font-bold text-[#424247]">Blog</a></li>
+                <li><a class="text-[16px] font-bold text-[#424247]">Content</a></li>
               </ul>
             </div>
-            <div class="navbar-end">
-              <a class="btn">Button</a>
+            <div class=" ml-auto lg:ml-[170px] ">
+              <img src="search.svg" alt="">
+              <a class="btn rounded-[8px] text-white text-[20px] font-bold w-[148px] h-[57px] bg-[#FF4240]">Get Ticket</a>
             </div>
           </div>
           <!-- navbar end -->
 
           <!-- banner section -->
           <div>
-            <div class="carousel mt-[24px] sm:ml-[100px]  lg:ml-[135px] lg:mr-[135px] ">
+            <div class="carousel mt-[24px]  ml-[20px] lg:ml-[135px] mr-[20px] lg:mr-[135px] ">
                 <div id="slide1" class="carousel-item relative w-full">
                   <img src="1.png" class="w-full" />
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -75,7 +76,7 @@
                     <a href="#slide2" class="btn btn-circle">❯</a>
                   </div>
                 </div> 
-                <div id="slide2" class="carousel-item relative w-full">
+                <div id="slide2" class="carousel-item rounded-[16px] relative w-full">
                   <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide1" class="btn btn-circle">❮</a> 
@@ -98,22 +99,22 @@
                 </div>
               </div>
           </div>
-    </nav>  <!-- nav end -->
+    </nav>  <!-- banner end -->
 
     <main>
       <!-- main section 1 -->    
-        <div class=" text-center  mt-[136px]">
-            <h1 class="text-[36px] font-extrabold" >
+        <div class=" text-center  mt-[136px] sm:">
+            <h1 class=" lg:text-[36px] text-[22px] font-extrabold" >
                 Professional Hockeys Club
             </h1>
-            <p class="text-[16px] font-medium text-[#13131899] mt-[24px]">
-                Elevating the game to new heights, our professional hockey club embodies excellence on and off the ice, <br>showcasing a relentless commitment to skill, teamwork, and sportsmanship
+            <p class=" mx-auto text-[14px] lg:text-[16px] w-[292px] lg:w-[607px] font-medium text-[#13131899] mt-[24px]">
+                Elevating the game to new heights, our professional hockey club embodies excellence on and off the ice,showcasing a relentless commitment to skill, teamwork, and sportsmanship
             </p>
         </div>
-        <div class="flex gap-[32px] mt-[80px] mx-[172px] ">
+        <div class="flex gap-[32px] mt-[80px] mx-[172px] flex-col lg:flex-row">
             <div class="text-center">
                 <div class="radial-progress relative  text-[#FF4240] taransform rotate-180  w-[120px] h-[120px] bg-white" style="--value:87;" role="progressbar"><span class=" transform rotate-180 text-[28px] font-semibold text-black ">87%</span></div>
-                <h1>
+                <h1 class="text-[20px] font-semibold">
                     Prayer Facility
                 </h1>
                 <p class="text-[16px] font-normal text-[#13131899] mt-[16px]">
@@ -123,7 +124,7 @@
 
             <div class="text-center">
                 <div class="radial-progress text-[#49D293] taransform rotate-180 text-primary w-[120px] h-[120px] text-primary" style="--value:95;" role="progressbar"><span class="transform rotate-180 text-[28px] font-semibold text-black ">95%</span></div>
-                <h1>
+                <h1 class="text-[20px] font-semibold">
                     Experienced Coach
                 </h1>
                 <p class="text-[16px] font-normal text-[#13131899] mt-[16px]">
@@ -133,7 +134,7 @@
 
             <div class="text-center">
                 <div class="radial-progress text-[#FFB546] taransform rotate-180 text-primary w-[120px] h-[120px] text-primary" style="--value:90;" role="progressbar"><span class="transform rotate-180 text-[28px] font-semibold text-black ">90%</span></div>
-                <h1>
+                <h1 class="text-[20px] font-semibold">
                     Senior Player
                 </h1>
                 <p class="text-[16px] font-normal text-[#13131899] mt-[16px]">
@@ -143,7 +144,7 @@
 
             <div class="text-center">
                 <div class="radial-progress text-[#4C8DF1] taransform rotate-180 text-primary w-[120px] h-[120px] text-primary" style="--value:80;" role="progressbar"><span class="transform rotate-180 text-[28px] font-semibold text-black ">80%</span></div>
-                <h1>
+                <h1 class="text-[20px] font-semibold">
                     Training Ground 
                 </h1>
                 <p class="text-[16px] font-normal text-[#13131899] mt-[16px]">
@@ -156,16 +157,16 @@
         <!--  main section 2 -->
 
         <div class="text-center mt-[132px]">
-            <h1 class="text-[36px] font-extrabold" >
+            <h1 class=" lg:text-[36px] text-[22px] font-extrabold" >
                 Program Sections
             </h1>
-            <p class="text-[16px] font-medium text-[#13131899] mt-[24px]">
-                Join our hockey programs designed for success, where skill development meets camaraderie,<br>
+            <p class="mx-auto text-[14px] lg:text-[16px] w-[292px] lg:w-[607px] font-medium text-[#13131899] mt-[24px]">
+                Join our hockey programs designed for success, where skill development meets camaraderie,
                  ensuring every player's journey is a rewarding and unforgettable experience.
             </p>
         </div>
 
-        <div class="flex justify-center gap-[24px] mt-[80px] mb-[24px]">
+        <div class=" flex mx-[20px] lg:mx-auto flex-col lg:flex-row justify-center gap-[24px] mt-[80px] mb-[24px]">
             <section class=" w-[573px] h-[338px] pt-[95px] pl-[40px] " style="background-image: url('2.png');">
               <h1 class="text-[28px] font-extrabold text-white">Junior Program</h1>
               <p class="text-left  text-[16px] font-medium text-white">Join our hockey club's junior program and nurture young talents on the ice. Our structured training and supportive community create an exciting environment for budding players to thrive and develop lifelong skills.</p>
@@ -180,7 +181,7 @@
 
             </section>
         </div>
-        <div class=" w-[1170px] h-[450px] pt-[95px] pl-[40px] mx-auto" style="background-image: url('4.png');">
+        <div class="w-full lg:w-[1170px] h-full lg:h-[450px] pt-[95px] pl-[40px] mx-[20px] lg:mx-auto" style="background-image: url('4.png');">
           <section>
             <h1 class="text-[28px] font-extrabold text-white">Professional Program</h1>
             <p class="text-left text-[16px] text-white font-medium">Join our hockey club's professional program and nurture young talents on the ice. <br> Our structured training and supportive community create an exciting environment for budding players to thrive and develop lifelong skills.</p>
@@ -193,19 +194,44 @@
         <!--  main section 3 -->
 
         <div class="text-center mt-[132px]">
-          <h1 class="text-[36px] font-extrabold">
+          <h1 class="lg:text-[36px] text-[22px] font-extrabold">
             Our New Products
           </h1>
-          <p class="text-[16px] font-medium text-[#13131899] mt-[24px]">
+          <p class="mx-auto text-[14px] lg:text-[16px] w-[292px] lg:w-[607px] font-medium text-[#13131899] mt-[24px]">
             Explore our latest arrivals for cutting-edge style and functionality. From fashion-forward apparel to innovative tech gadgets,<br>
              discover the freshest additions to elevate your shopping experience.
           </p>
        </div>
               <!-- our new products list -->
-      <div class="grid grid-cols-2 gap-[24px] ">
-        <section class="flex gap-[20px]">
+      <div class="grid grid-cols-1 lg:grid-cols-2  gap-[24px]  mx-[20px] lg:mx-[135px] mt-[48px] ">
+        <section class="flex flex-col lg:flex-row gap-[20px] border-[1px] rounded-[16px] pt-[24px] pl-[24px] pb-[22px]">
           <div>
-            <img src="5.png" alt="">
+            <img class="px-[24px] lg:px-0 h-[172px] w-[287px] lg:w-[180px]" src="5.png" alt="">
+          </div>
+          <div>
+            <section class="flex gap-[16px] ">
+              <img src="star.png" alt=""><span>5.0</span>
+              <img src="eye.png" alt=""><span>20</span>
+              <img src="heart.png" alt=""><span>200</span>
+            </section>
+            <section>
+              <h3>World Cup Flags Football</h3>
+              <p>The FIFA World Cup: Global football spectacle, crowning champions every four years.</p>
+            </section>
+            <section class="flex">
+              <p>Price - $22.00</p>
+              <img src="cart.svg" alt="">
+              <p>Delivery Fee : Free</p>
+            </section>
+
+          </div>
+
+        </section>
+
+
+        <section class="flex flex-col lg:flex-row  gap-[20px] border-[1px] rounded-[16px] pt-[24px] pl-[24px] pb-[22px]">
+          <div>
+            <img src="6.png" alt="">
           </div>
           <div>
             <section class="flex gap-[16px]">
@@ -227,9 +253,33 @@
 
         </section>
 
-        <section class="flex gap-[20px]">
+        <section class="flex flex-col lg:flex-row  gap-[20px] border-[1px] rounded-[16px] pt-[24px] pl-[24px] pb-[22px]">
           <div>
-            <img src="5.png" alt="">
+            <img src="7.png" alt="">
+          </div>
+          <div>
+            <section class="flex gap-[16px]">
+              <img src="star.png" alt=""><span>5.0</span>
+              <img src="eye.png" alt=""><span>20</span>
+              <img src="heart.png" alt=""><span>200</span>
+            </section>
+            <section>
+              <h3>Cap For Hockeys</h3>
+              <p>The FIFA World Cup: Global football spectacle, crowning champions every four years.</p>
+            </section>
+            <section class="flex">
+              <p>Price - $22.00</p>
+              <img src="cart.svg" alt="">
+              <p>Delivery Fee : Free</p>
+            </section>
+
+          </div>
+
+        </section>
+
+        <section class="flex flex-col lg:flex-row  gap-[20px] border-[1px] rounded-[16px] pt-[24px] pl-[24px] pb-[22px]">
+          <div>
+            <img src="8.png" alt="">
           </div>
           <div>
             <section class="flex gap-[16px]">
@@ -251,9 +301,9 @@
 
         </section>
 
-        <section class="flex gap-[20px]">
+        <section class="flex flex-col lg:flex-row  gap-[20px] border-[1px] rounded-[16px] pt-[24px] pl-[24px] pb-[22px]">
           <div>
-            <img src="5.png" alt="">
+            <img src="9.png" alt="">
           </div>
           <div>
             <section class="flex gap-[16px]">
@@ -275,57 +325,9 @@
 
         </section>
 
-        <section class="flex gap-[20px]">
+        <section class="flex flex-col lg:flex-row  gap-[20px] border-[1px] rounded-[16px] pt-[24px] pl-[24px] pb-[22px]">
           <div>
-            <img src="5.png" alt="">
-          </div>
-          <div>
-            <section class="flex gap-[16px]">
-              <img src="star.png" alt=""><span>5.0</span>
-              <img src="eye.png" alt=""><span>20</span>
-              <img src="heart.png" alt=""><span>200</span>
-            </section>
-            <section>
-              <h3>World Cup Flags Football</h3>
-              <p>The FIFA World Cup: Global football spectacle, crowning champions every four years.</p>
-            </section>
-            <section class="flex">
-              <p>Price - $22.00</p>
-              <img src="cart.svg" alt="">
-              <p>Delivery Fee : Free</p>
-            </section>
-
-          </div>
-
-        </section>
-
-        <section class="flex gap-[20px]">
-          <div>
-            <img src="5.png" alt="">
-          </div>
-          <div>
-            <section class="flex gap-[16px]">
-              <img src="star.png" alt=""><span>5.0</span>
-              <img src="eye.png" alt=""><span>20</span>
-              <img src="heart.png" alt=""><span>200</span>
-            </section>
-            <section>
-              <h3>World Cup Flags Football</h3>
-              <p>The FIFA World Cup: Global football spectacle, crowning champions every four years.</p>
-            </section>
-            <section class="flex">
-              <p>Price - $22.00</p>
-              <img src="cart.svg" alt="">
-              <p>Delivery Fee : Free</p>
-            </section>
-
-          </div>
-
-        </section>
-
-        <section class="flex gap-[20px]">
-          <div>
-            <img src="5.png" alt="">
+            <img src="10.png" alt="">
           </div>
           <div>
             <section class="flex gap-[16px]">
@@ -351,16 +353,16 @@
 
       <!-- clients section  -->
       <div class="text-center mt-[132px]">
-        <h1 class="text-[36px] font-extrabold">
+        <h1 class="lg:text-[36px] text-[22px] font-extrabold">
           Clients Question
         </h1>
-        <p class="text-[16px] font-medium text-[#13131899] mt-[24px]">
+        <p class="mx-auto text-[14px] lg:text-[16px] w-[292px] lg:w-[607px] font-medium text-[#13131899] mt-[24px]">
           Curious about our hockey club? Feel free to ask any questions!We're here to provide all the information,
-          <br> you need to get involved and enjoy the exciting world of hockey with us.
+          you need to get involved and enjoy the exciting world of hockey with us.
         </p>
      </div>
 
-     <div class="flex gap-[40px] "> 
+     <div class="flex flex-col lg:flex-row items-center gap-[40px] mt-[48px] mx-[135px]"> 
       <section>
         <img src="11.png" alt="">
       </section>
@@ -448,18 +450,18 @@
      </div>
 <!-- get in touch section -->
       <div class="text-center mt-[132px]">
-        <h1 class="text-[36px] font-extrabold">
+        <h1 class="lg:text-[36px] text-[22px] font-extrabold">
           Get In Touch
         </h1>
-        <p class="text-[16px] font-medium text-[#13131899] mt-[24px]">
-          For the latest updates and a peek into our vibrant hockey community, follow us on social media . <br>
-           We look forward to connecting with fellow enthusiasts, sharing our passion for the game, <br>
+        <p class="mx-auto text-[14px] lg:text-[16px] w-[292px] lg:w-[607px] font-medium text-[#13131899] mt-[24px]">
+          For the latest updates and a peek into our vibrant hockey community, follow us on social media .
+           We look forward to connecting with fellow enthusiasts, sharing our passion for the game,
             and creating memorable experiences together
         </p>
      </div>
 
-    <div class="flex gap-[24px]">
-      <section class="grid  gap-[24px] ml-[135px]   w-[474px] h-[764px] border-[1px] rounded-[16px] mt-[48px]">
+    <div class="flex flex-col lg:flex-row gap-[24px] ml-[80px] lg:ml-[135px] mr-[135px]">
+      <section class="grid  gap-[24px] w-[474px] h-[764px] border-[1px] rounded-[16px] mt-[48px]">
         <div class="bg-[#bced6d1a] rounded-[16px] w-[374px] h-[216px] mt-[50px] ml-[50px] ">
           <img class="mt-[32px] ml-[32px]" src="Group 1171275317.png" alt="">
           <p class="mt-[24px] ml-[32px]">
@@ -482,8 +484,8 @@
           </p>
         </div>
       </section>
-      <section class="mt-[48px] w-[474px] h-[764px] grid gap-[24px]">
-        <div class="flex gap-[24px]">
+      <section class="mt-[48px] ml-[55px] lg:ml-0 w-[474px] h-[764px] grid gap-[24px]">
+        <div class="flex flex-col lg:flex-row gap-[24px]">
           <section>          
             <h1>Your Name</h1><br>
             <input class="bg-[#13131808] w-[324px] h-[64px] rounded-[12px]" type="text" placeholder="Enter your Full name" >
@@ -494,7 +496,7 @@
           </section>
 
         </div>
-        <div class="flex gap-[24px]">
+        <div class="flex flex-col lg:flex-row gap-[24px]">
           <section>          
             <h1>Subject</h1><br>
             <input class="bg-[#13131808] w-[324px] h-[64px] rounded-[12px]" type="text" placeholder="Enter your Subject" >
@@ -506,47 +508,67 @@
         </div>
         <div>
           <h1 class="mb-[16px]">Message</h1>
-          <textarea class="w-[672px] h-[370px] bg-[#13131808] rounded-[12px]" placeholder="Write your message" name="text area" ></textarea>
+          <textarea class="w-[335px] lg:w-[672px] h-[200px] lg:h-[370px] bg-[#13131808] rounded-[12px]" placeholder="Write your message" name="text area" ></textarea>
         </div>
         <div>
-          <button class="w-[672px] h-[57px] rounded-[12px] bg-[#FF4240] text-white text-[20px] font-bold">Send Message</button>
+          <button class="w-[335px] lg:w-[672px] h-[57px] rounded-[12px] bg-[#FF4240] text-white text-[20px] font-bold">Send Message</button>
         </div>
 
 
       </section>
      </div>
-     <div class="w-[1170px] h-[150px] bg-[#13131808] rounded-[12px] mt-[48px] ml-[135px] mb-[100px] ">
+     <div class="w-[335px] lg:w-[1170px] h-[140px] lg:h-[150px] bg-[#13131808] rounded-[12px] mt-[110px] lg:mt-[48px] ml-[135px] mb-[100px] ">
       <h1 class="text-center pt-[60px]">Social Media</h1>
       <img class="mx-auto mt-[20px]" src="Social.svg" alt="">
 
-     </div>
+    </div>
 
 
     </main> <!-- main section end  --> 
 <!-- footer section -->
-<footer class="footer p-10 bg-neutral text-neutral-content">
-  <div>
+<footer class="footer p-10 bg-neutral text-neutral-content flex-col lg:flex-row">
+  <div class="mt-[100px]  ml-[135px] ">
+    <h1 class="text-[28px] font-extrabold text-white  ml-[60px] lg:ml-0">Get In Touch</h1>
+    <p class=" w-[297px] lg:w-[346px] text-center lg:text-left mt-[16px] ">For the latest updates and a peek into our vibrant hockey community, follow us on social media .
+      We look forward to connecting with fellow enthusiasts, sharing our passion for the game,
+      and creating memorable experiences together </p>
+    <section class="flex gap-[16px] mt-[24px] ml-[60px] lg:ml-0">
+      <img src="footer 1.png" alt="">
+      <p>hockeys@support.com</p>
+    </section>
+    <section class="flex gap-[16px] ml-[70px] lg:ml-0">
+      <img src="Footer 2.png" alt="">
+      <p>(+62) 123-321-543</p>
+    </section>
     
   </div>
-  <nav class="ml-[332px] mt-[100px]">
-    <header class="footer-title">Services</header> 
-    <a class="link link-hover">Branding</a>
-    <a class="link link-hover">Design</a>
-    <a class="link link-hover">Marketing</a>
-    <a class="link link-hover">Advertisement</a>
-  </nav> 
-  <nav class="mt-[100px]">
-    <header class="footer-title">Company</header> 
+
+<div class="ml-[130px] lg:ml-0 gap-[130px] flex lg:flex-none">
+  <nav class="mt-[100px] grid gap-[7px] ">
+    <header class=" text-[18px] font-bold text-white">Company</header> 
     <a class="link link-hover">About us</a>
-    <a class="link link-hover">Contact</a>
-    <a class="link link-hover">Jobs</a>
-    <a class="link link-hover">Press kit</a>
-  </nav> 
-  <nav class="mt-[100px]">
-    <header class="footer-title">Legal</header> 
-    <a class="link link-hover">Terms of use</a>
-    <a class="link link-hover">Privacy policy</a>
-    <a class="link link-hover">Cookie policy</a>
+    <a class="link link-hover">Leadership</a>
+    <a class="link link-hover">Career</a>
+    <a class="link link-hover">News and articles</a>
+    <a class="link link-hover">Legal Notice</a>
+  </nav>
+  <nav class=" mt-[100px] grid gap-[7px]">
+    <header class=" text-[18px] font-bold text-white">Support</header> 
+    <a class="link link-hover">Help center</a>
+    <a class="link link-hover">FAQ</a>
+    <a class="link link-hover">Ticket support</a>
+    <a class="link link-hover">Contact us</a>
+  </nav>
+</div>
+
+ 
+  <nav class="  lg:mt-[100px] mr-[200px] ml-[230px] lg:ml-0">
+    <header class="ml-[3px] lg:ml-0 text-[18px] font-bold text-white">Services</header> 
+    <a class="link link-hover ml-[7px] lg:ml-0">Academy</a>
+    <a class="link link-hover -ml-[2px] lg:ml-0">Group Lessons</a>
+    <a class="link link-hover -ml-[3px] lg:ml-0">Private lessons</a>
+    <a class="link link-hover -ml-[3px] lg:ml-0">Hockeys for kid</a>
+    <a class="link link-hover -ml-[6px] lg:ml-0">Hockeys for Adult</a>
   </nav>
 </footer>
 
